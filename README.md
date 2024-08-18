@@ -9,6 +9,7 @@ Fortunately,
 I know other languages: Python, Batch.
 Of course, 
 I have basic knowledge in many programming languages: 
-JavaScript, C, C++, C#, PHP, CSS, TypeScript, HTML, Go, Rust, Lua, Ruby… (There are more).
+JavaScript, C, C++, C#, PHP, CSS, TypeScript, HTML, Go, Rust, Lua, Ruby… (There are more)
+and i'm still on version 5.1 of SQL 😵‍💫.
 I am very active on Discord and I enjoy helping people.
 My Discord: https://discord.com/@yotop33
