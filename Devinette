@@ -1,0 +1,25 @@
+import random
+
+def deviner_nombre():
+    nombre_a_deviner = random.randint(1, 100)
+    tentative = 0
+
+    print("Je pense à un nombre entre 1 et 100. Essaie de le deviner !")
+
+    while True:
+        try:
+            devine = int(input("Entrez votre devinette : "))
+            tentative += 1
+
+            if devine < nombre_a_deviner:
+                print("Trop bas ! Essayez encore.")
+            elif devine > nombre_a_deviner:
+                print("Trop haut ! Essayez encore.")
+            else:
+                print(f"Bravo ! Vous avez deviné le nombre en {tentative} tentatives.")
+                break
+        except ValueError:
+            print("Veuillez entrer un nombre valide.")
+
+if __name__ == "__main__":
+    deviner_nombre()
